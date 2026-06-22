@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on003574",
-  "source": "openneuro",
-  "source_id": "ds003574",
+  "pipeline_stage": "validated",
   "title": "Reward biases spontaneous neural reactivation during sleep",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Virginie Sterpenich": {},
     "Mojca KM van Schie": {},
@@ -14,37 +14,88 @@
     "Dimitri Van De Ville": {},
     "Sophie Schwartz": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003574.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003574",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003574",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.4.1",
-  "recording_modality": [
-    "anat",
-    "eeg",
-    "func"
-  ],
-  "datatypes": [
-    "anat",
-    "eeg",
-    "func"
-  ],
   "funding_references": [
-    {
-      "funder_name": "Swiss National Science Foundation (51NF40-104897 - 320030-159862 - 320030-135653)"
-    },
     {
       "funder_name": "Mercier Foundation"
     },
     {
       "funder_name": "National Research Foundation of Korea (NRF - 2017R1A2B4005305)"
+    },
+    {
+      "funder_name": "Swiss National Science Foundation",
+      "award_number": "51NF40-104897"
+    },
+    {
+      "funder_name": "Swiss National Science Foundation",
+      "award_number": "320030-159862"
+    },
+    {
+      "funder_name": "Swiss National Science Foundation",
+      "award_number": "320030-135653"
+    },
+    {
+      "funder_name": "National Research Foundation of Korea",
+      "award_number": "NRF-2017R1A2B4005305"
     }
   ],
-  "acknowledgements": "This research was supported by the National Center of Competence in Research (NCCR) Affective Sciences financed by the Swiss National Science Foundation (grant number: 51NF40-104897) and hosted by the University of Geneva, and the Swiss National Science Foundation (grant numbers: 320030-159862 and 320030-135653), and the Mercier Foundation. Hee-Deok Yang work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. NRF-2017R1A2B4005305) We also thank Ben Meuleman for statistical advice."
+  "modalities": [
+    "anat",
+    "eeg",
+    "func"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".gitattributes",
+    ".gz",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises neuroimaging and electrophysiological recordings from 18 participants who engaged in reward-based cognitive tasks during wakefulness followed by sleep monitoring in an MRI scanner. Participants played two games (FACE and MAZE) during functional MRI acquisition, with one game designated as rewarded and the other as non-rewarded. Subsequent sleep sessions were recorded using simultaneous EEG-fMRI to investigate how reward biases spontaneous neural reactivation during sleep. Memory performance was assessed the following day to evaluate task retention.",
+  "methods_description": "Data collection involved two phases: (1) wakefulness phase with 3T MRI acquisition during FACE and MAZE game tasks intermixed with rest periods, where one game was designated as rewarded and the other non-rewarded; (2) sleep phase with simultaneous EEG (64 electrodes) and fMRI recording for 1-2 hours in the MRI scanner. A decoding classifier trained on wakefulness task data was applied to sleep-phase fMRI data. Memory testing was performed the following day.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "sleep"
+    },
+    {
+      "term": "reward processing"
+    },
+    {
+      "term": "memory consolidation"
+    },
+    {
+      "term": "neural reactivation"
+    },
+    {
+      "term": "simultaneous EEG-fMRI"
+    }
+  ],
+  "source_hash": "b45b17cfe66fe93bf1600d0a29bc4463a9333f259d97d4bb8b70820417b0c776"
 }
