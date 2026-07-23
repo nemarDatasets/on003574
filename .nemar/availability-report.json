@@ -1,0 +1,85 @@
+{
+  "dataset_id": "on003574",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:02:12.222Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds003574"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 79,
+    "files_declared": 90,
+    "bytes_present": 19139345106,
+    "bytes_declared": 19286081824,
+    "pct_bytes": 0.9923915744349172
+  },
+  "missing": [
+    {
+      "path": "sub-01/anat/sub-01_T1w.nii.gz",
+      "key": "MD5E-s11878096--9c29d1a4c1f77718224924b2e8f74a6f.nii.gz",
+      "declared_size": 11878096,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-02/anat/sub-02_T1w.nii.gz",
+      "key": "MD5E-s12693670--7602aa1880e8bc66486779fdb1ba9c6c.nii.gz",
+      "declared_size": 12693670,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-03/anat/sub-03_T1w.nii.gz",
+      "key": "MD5E-s12445591--367289c1d1b646f3270f293a444a1e2f.nii.gz",
+      "declared_size": 12445591,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-05/anat/sub-05_T1w.nii.gz",
+      "key": "MD5E-s12561567--3e1637c8105a9b05ca5cf5daeed97210.nii.gz",
+      "declared_size": 12561567,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-07/anat/sub-07_T1w.nii.gz",
+      "key": "MD5E-s13416051--0cafa549e368a14386905351caa79b8c.nii.gz",
+      "declared_size": 13416051,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-10/anat/sub-10_T1w.nii.gz",
+      "key": "MD5E-s12463664--2f62d4a6891697e46e02934d5d9e0018.nii.gz",
+      "declared_size": 12463664,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-14/anat/sub-14_T1w.nii.gz",
+      "key": "MD5E-s12370859--9d2195f823d5631ef2f0bdd55e2b7518.nii.gz",
+      "declared_size": 12370859,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-15/anat/sub-15_T1w.nii.gz",
+      "key": "MD5E-s12244821--a6edb1626020d63f83397f9961ec5031.nii.gz",
+      "declared_size": 12244821,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-16/anat/sub-16_T1w.nii.gz",
+      "key": "MD5E-s11986491--3aee79d0012e6e8fac58dc7818a13ae5.nii.gz",
+      "declared_size": 11986491,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-17/anat/sub-17_T1w.nii.gz",
+      "key": "MD5E-s12532371--f1b1c8abe77c3e09dbcbcfbf3b40475a.nii.gz",
+      "declared_size": 12532371,
+      "reason": "zero_byte"
+    },
+    {
+      "path": "sub-18/anat/sub-18_T1w.nii.gz",
+      "key": "MD5E-s12451702--fba59fb01ad441804e27b5507b9b0f06.nii.gz",
+      "declared_size": 12451702,
+      "reason": "zero_byte"
+    }
+  ]
+}
